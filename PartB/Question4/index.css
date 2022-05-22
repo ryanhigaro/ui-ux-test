@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  font-size: 14px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: #1ba1fc;
+  margin: 25px;
+}
+
+.lastbox { 
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}

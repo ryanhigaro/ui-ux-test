@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    font-size: 14px;
+  }
+
+  .header {
+    height: 80px;
+    background-color: #1ba1fc;
+
+  }
+
+  .content {
+    height: 100px;
+    background-color: #fff;
+  }
+
+  .footer {
+    height: 100px;
+    background-color: #747474;
+
+    /* Solution  - set footer to be fixed position */
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
