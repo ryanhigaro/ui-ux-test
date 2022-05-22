@@ -8,10 +8,11 @@ import {
   ListItemButton,
   ListItemText,
   Drawer,
-  IconButton,
+  IconButton
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
+import SearchInput from "./SearchInput";
 
 export default function MenuBar() {
   const [open, setOpen] = useState(false);
@@ -29,6 +30,7 @@ export default function MenuBar() {
           >
             <MenuIcon />
           </IconButton>
+          <SearchInput />
         </Toolbar>
       </AppBar>
       <Drawer
